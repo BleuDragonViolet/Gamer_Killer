@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Setup Express</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>Setup Express</h1>
+    <nav class="nav">
+      <a href="index.html"><button>Accueil</button></a>
+      <a href="support.html"><button>Support</button></a>
+      <a href="information.html"><button>Information Supplémentaire</button></a>
+
+    </nav>
+  </header>
+  <div class="filter-buttons">
+    <button onclick="filterCards('all')">Tous</button>
+    <button onclick="filterCards('Ps3')">Ps3</button>
+    <button onclick="filterCards('Plutonium')">Plutonium</button>
+    <button onclick="filterCards('logiciels')">-</button>
+    <button onclick="filterCards('Extensions')">-</button>
+    <button onclick="filterCards('Rooms')">-</button>
+  </div>
+
+  <main class="content">
+
+    <div class="download-card" data-category="Plutonium">
+      <h2>Plutonium</h2>
+      <img src="img/Plutonium.png" alt="Aperçu de l'app" class="app-image">
+      <a href="https://cdn.plutonium.pw/updater/plutonium.exe" class="download-button" download>Télécharger</a>
+    </div>
+
+    <div class="download-card" data-category="Ps3">
+      <h2>Call of Duty: Black Ops I</h2>
+      <img src="img/Call of Duty Black Ops I.png" alt="Aperçu de l'app" class="app-image">
+      <a href="https://multiup.io/80e9acdd80fc8272931569c490c382f5" class="download-button" download>Télécharger</a>
+    </div>
+
+    <div class="download-card" data-category="Ps3">
+      <h2>Call of Duty: Black Ops II</h2>
+      <img src="img/Call of Duty Black Ops II.png" alt="Aperçu de l'app" class="app-image">
+      <a href="https://multiup.io/3b345537377b509ab60a52b53b214662" class="download-button" download>Télécharger</a>
+    </div>
+
+    <div class="download-card" data-category="Plutonium">
+      <h2>Plutonium Black Ops 2</h2>
+      <img src="img/bo2plutofr.png" alt="Aperçu de l'app" class="app-image">
+      <a href="https://drive.google.com/drive/folders/12MygCPC_jc3BVkREPGhq54CTMOjbVoiA?usp=sharing"  class="download-button" download>Télécharger</a>
+    </div>
+
+    <div class="download-card" data-category="Ps3">
+      <h2>Call of Duty: Black Ops III</h2>
+      <img src="img/Call of Duty Black Ops III.png" alt="Aperçu de l'app" class="app-image">
+      <a href="https://multiup.io/4ece93d6d5b65139d9897557a622e98b" class="download-button" download>Télécharger</a>
+    </div>
+
+    <div class="download-card" data-category="Ps3">
+      <h2>Call of Duty: Modern Warfare 2</h2>
+      <img src="img/Call of Duty Modern Warfare 2.png" alt="Aperçu de l'app" class="app-image">
+      <a href="https://multiup.io/699a3c742fa29bb51f3118495c09d047" class="download-button" download>Télécharger</a>
+    </div>
+
+    <div class="download-card" data-category="Ps3">
+      <h2>Call of Duty: Modern Warfare 3</h2>
+      <img src="img/Call of Duty Modern Warfare 3.png" alt="Aperçu de l'app" class="app-image">
+      <a href="https://multiup.io/60d4bb01c071eebb90a23180234a728e" class="download-button" download>Télécharger</a>
+    </div>
+
+    <div class="download-card" data-category="Ps3">
+      <h2>Minecraft</h2>
+      <img src="img/Minecraft.png" alt="Aperçu de l'app" class="app-image">
+      <a href="https://multiup.io/9f81cbd134b991297e474675766eb38c" class="download-button" download>Télécharger</a>
+    </div>
+
+    <div class="download-card" data-category="Ps3">
+      <h2>Grand Theft Auto V</h2>
+      <img src="img/GTA.png" alt="Aperçu de l'app" class="app-image">
+      <a href="https://multiup.io/f1f59402c3a56361d9225f71a317d1c4" class="download-button" download>Télécharger</a>
+    </div>
+
+
+
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

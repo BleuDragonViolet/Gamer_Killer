@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support Technique – Setup Express</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .video-section {
+      margin: 60px auto 40px auto;
+      width: 100%;
+      max-width: 800px;
+      padding: 20px;
+      background: rgba(33, 37, 67, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    }
+
+    .video-section h3 {
+      color: #959EBD;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* Ratio 16:9 */
+      height: 0;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>🛠 Support – Besoin d’aide ?</h1>
+    <nav class="nav">
+      <a href="index.html"><button>Accueil</button></a>
+      <a href="support.html"><button>Support</button></a>
+      <a href="information.html"><button>Information Supplémentaire</button></a>
+    </nav>
+  </header>
+
+  <main class="content" style="max-width: 90%; margin: 30px auto; background-color: rgba(33, 37, 67, 0.8); color: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.5); display: block; text-align: center;">
+    <h2 style="color: #959EBD; margin-bottom: 20px;">Rejoignez notre Discord</h2>
+  
+    <!-- Image cliquable -->
+    <a href="https://discord.gg/K3j7HucxzJ" target="_blank">
+      <img src="img/Logo Discord sur fond militaire.png" alt="Logo Discord Call of Duty" class="app-image" style="margin-bottom: 20px;">
+    </a>
+  
+    <!-- Bouton -->
+    <a href="https://discord.gg/K3j7HucxzJ" target="_blank">
+      <button class="download-button">Rejoindre le serveur</button>
+    </a>
+  </main>
+  
+  
+  
+
+  <script>
+    function navigateTo(page) {
+      window.location.href = page;
+    }
+  </script>
+</body>
+</html>
